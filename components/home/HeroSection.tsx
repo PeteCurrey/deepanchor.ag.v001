@@ -12,7 +12,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1517032283973-460ca466f917?auto=format&fit=crop&q=100&w=2400"
+          src="https://images.unsplash.com/photo-1542612711-665519808d7e?auto=format&fit=crop&q=100&w=2400"
           alt="Offshore sailing yacht at dawn"
           fill
           className="object-cover scale-110 motion-safe:animate-pulse-slow"
