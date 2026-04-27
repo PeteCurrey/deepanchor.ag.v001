@@ -11,15 +11,12 @@ export function HeroSection() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <Image
-          src="https://images.unsplash.com/photo-1542612711-665519808d7e"
+        <img
+          src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=2400"
           alt="Offshore sailing yacht at dawn"
-          fill
-          className="object-cover scale-110 motion-safe:animate-pulse-slow"
-          priority
-          unoptimized
+          className="absolute inset-0 w-full h-full object-cover scale-110 motion-safe:animate-pulse-slow"
         />
-        <div className="absolute inset-0 bg-ocean/40 backdrop-blur-[2px]" />
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-[1px]" />
         <div className="absolute inset-0 chart-overlay opacity-30" />
       </div>
 
