@@ -12,11 +12,12 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1542612711-665519808d7e?auto=format&fit=crop&q=100&w=2400"
+          src="https://images.unsplash.com/photo-1542612711-665519808d7e"
           alt="Offshore sailing yacht at dawn"
           fill
           className="object-cover scale-110 motion-safe:animate-pulse-slow"
           priority
+          unoptimized
         />
         <div className="absolute inset-0 bg-ocean/40 backdrop-blur-[2px]" />
         <div className="absolute inset-0 chart-overlay opacity-30" />
